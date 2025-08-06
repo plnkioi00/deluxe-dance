@@ -1,38 +1,324 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Container */
+.app-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Language Switcher */
+.lang-switcher {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.lang-button {
+  border: none;
+  background: transparent;
+  margin-left: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.lang-button:hover {
+  background: #ececec;
+}
+.lang-button.active {
+  background: #7f3f98;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header */
+.app-header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand-icon {
+  width: 32px;
+  height: 32px;
+  color: #7f3f98;
+  margin-right: 8px;
+}
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-desktop {
+  display: none;
+}
+.nav-link {
+  margin: 0 8px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.nav-mobile {
   display: flex;
   flex-direction: column;
+  padding: 16px;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+.nav-link-mobile {
+  margin: 8px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .nav-desktop { display: flex; }
+  .nav-toggle { display: none; }
+  .nav-mobile { display: none; }
+}
+
+/* Hero */
+.hero-section {
+  padding: 80px 16px;
+  text-align: center;
+  background-image: linear-gradient(135deg, #7f3f98, #ff4081);
+  color: #fff;
+}
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-button {
+  background: #fff;
+  color: #7f3f98;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.hero-button:hover {
+  background: #f0f0f0;
+}
+
+/* Sections */
+section {
+  padding: 80px 16px;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.section-subtitle {
+  font-size: 1rem;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #666;
+}
+
+/* Classes Grid */
+.classes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+.class-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.class-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.class-name {
+  font-size: 1.25rem;
+  margin: 16px;
+}
+.class-description {
+  font-size: 0.875rem;
+  margin: 0 16px 16px;
+  color: #555;
+  flex-grow: 1;
+}
+.class-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.class-level {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #7f3f98;
+}
+.class-button {
+  background: #7f3f98;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.class-button:hover {
+  background: #6a2383;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 16px;
+}
+.modal-content {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+.modal-details {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 16px;
+  white-space: pre-line;
+}
+.modal-price {
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+/* Instructors */
+.instructors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+.instructor-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 24px;
+  text-align: center;
+}
+.instructor-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+}
+.instructor-name {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+.instructor-role {
+  font-size: 0.875rem;
+  color: #7f3f98;
+  margin-bottom: 8px;
+}
+.instructor-bio {
+  font-size: 0.875rem;
+  color: #555;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Schedule Table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+.schedule-table th {
+  background: #7f3f98;
+  color: #fff;
+}
+.schedule-table tr:hover {
+  background: #f5f5f5;
+}
+
+/* Footer */
+.footer-section {
+  padding: 40px 16px;
+  background: #7f3f98;
+  color: #fff;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+}
+.footer-column h4 {
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+.footer-column p {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+}
+.footer-column p svg {
+  margin-right: 8px;
 }
