@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/deluxe-dance/static/css/main.f4788340.css",
+    "main.js": "/deluxe-dance/static/js/main.a855ba76.js",
+    "static/js/453.435ff830.chunk.js": "/deluxe-dance/static/js/453.435ff830.chunk.js",
+    "index.html": "/deluxe-dance/index.html",
+    "main.f4788340.css.map": "/deluxe-dance/static/css/main.f4788340.css.map",
+    "main.a855ba76.js.map": "/deluxe-dance/static/js/main.a855ba76.js.map",
+    "453.435ff830.chunk.js.map": "/deluxe-dance/static/js/453.435ff830.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4788340.css",
+    "static/js/main.a855ba76.js"
+  ]
+}
