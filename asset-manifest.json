@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/deluxe-dance/static/css/main.7f406ed0.css",
-    "main.js": "/deluxe-dance/static/js/main.0c77b519.js",
+    "main.css": "/deluxe-dance/static/css/main.bc1fec0d.css",
+    "main.js": "/deluxe-dance/static/js/main.dc35ea12.js",
     "static/js/453.435ff830.chunk.js": "/deluxe-dance/static/js/453.435ff830.chunk.js",
     "static/media/logo.png": "/deluxe-dance/static/media/logo.6ee49b4a36bc500e9c89.png",
+    "static/media/west.jpg": "/deluxe-dance/static/media/west.e61c361b4b1d545a25bb.jpg",
+    "static/media/westpro.jpg": "/deluxe-dance/static/media/westpro.4ee18c43744308d0c235.jpg",
+    "static/media/zumba.jpg": "/deluxe-dance/static/media/zumba.396bcf6e8671deb3ce24.jpg",
+    "static/media/bodyballet.jpg": "/deluxe-dance/static/media/bodyballet.fd4b5e6425fdbb8c84ef.jpg",
+    "static/media/heels.jpg": "/deluxe-dance/static/media/heels.8970c0b9b80b6a8aaa5f.jpg",
+    "static/media/tabata.jpg": "/deluxe-dance/static/media/tabata.48b551b2e534fc8a4270.jpg",
+    "static/media/ladystyle.jpg": "/deluxe-dance/static/media/ladystyle.d362aabd96212b0c3d5c.jpg",
+    "static/media/stretching.jpg": "/deluxe-dance/static/media/stretching.a822661d01a836b4ec69.jpg",
+    "static/media/pilates.jpg": "/deluxe-dance/static/media/pilates.b9e2f95d08e8370f6d53.jpg",
+    "static/media/barre.jpg": "/deluxe-dance/static/media/barre.860efc78f757617e0948.jpg",
     "index.html": "/deluxe-dance/index.html",
-    "main.7f406ed0.css.map": "/deluxe-dance/static/css/main.7f406ed0.css.map",
-    "main.0c77b519.js.map": "/deluxe-dance/static/js/main.0c77b519.js.map",
+    "main.bc1fec0d.css.map": "/deluxe-dance/static/css/main.bc1fec0d.css.map",
+    "main.dc35ea12.js.map": "/deluxe-dance/static/js/main.dc35ea12.js.map",
     "453.435ff830.chunk.js.map": "/deluxe-dance/static/js/453.435ff830.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f406ed0.css",
-    "static/js/main.0c77b519.js"
+    "static/css/main.bc1fec0d.css",
+    "static/js/main.dc35ea12.js"
   ]
 }
