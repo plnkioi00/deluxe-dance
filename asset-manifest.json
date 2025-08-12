@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/deluxe-dance/static/css/main.bc1fec0d.css",
-    "main.js": "/deluxe-dance/static/js/main.dc35ea12.js",
+    "main.css": "/deluxe-dance/static/css/main.9db10ba9.css",
+    "main.js": "/deluxe-dance/static/js/main.95efbd6a.js",
     "static/js/453.435ff830.chunk.js": "/deluxe-dance/static/js/453.435ff830.chunk.js",
     "static/media/logo.png": "/deluxe-dance/static/media/logo.6ee49b4a36bc500e9c89.png",
+    "static/media/CormorantGaramond-Regular.ttf": "/deluxe-dance/static/media/CormorantGaramond-Regular.ec49e37220273b5a5f0e.ttf",
     "static/media/west.jpg": "/deluxe-dance/static/media/west.e61c361b4b1d545a25bb.jpg",
     "static/media/westpro.jpg": "/deluxe-dance/static/media/westpro.4ee18c43744308d0c235.jpg",
+    "static/media/bodyballet.jpg": "/deluxe-dance/static/media/bodyballet.ea366679268aea800eb6.jpg",
     "static/media/zumba.jpg": "/deluxe-dance/static/media/zumba.396bcf6e8671deb3ce24.jpg",
-    "static/media/bodyballet.jpg": "/deluxe-dance/static/media/bodyballet.fd4b5e6425fdbb8c84ef.jpg",
     "static/media/heels.jpg": "/deluxe-dance/static/media/heels.8970c0b9b80b6a8aaa5f.jpg",
     "static/media/tabata.jpg": "/deluxe-dance/static/media/tabata.48b551b2e534fc8a4270.jpg",
     "static/media/ladystyle.jpg": "/deluxe-dance/static/media/ladystyle.d362aabd96212b0c3d5c.jpg",
+    "static/media/barre.jpg": "/deluxe-dance/static/media/barre.2c1bbb7fd94949c8db28.jpg",
     "static/media/stretching.jpg": "/deluxe-dance/static/media/stretching.a822661d01a836b4ec69.jpg",
     "static/media/pilates.jpg": "/deluxe-dance/static/media/pilates.b9e2f95d08e8370f6d53.jpg",
-    "static/media/barre.jpg": "/deluxe-dance/static/media/barre.860efc78f757617e0948.jpg",
+    "static/media/Cinzel-Regular.ttf": "/deluxe-dance/static/media/Cinzel-Regular.df2966c125b0b82cc089.ttf",
     "index.html": "/deluxe-dance/index.html",
-    "main.bc1fec0d.css.map": "/deluxe-dance/static/css/main.bc1fec0d.css.map",
-    "main.dc35ea12.js.map": "/deluxe-dance/static/js/main.dc35ea12.js.map",
+    "main.9db10ba9.css.map": "/deluxe-dance/static/css/main.9db10ba9.css.map",
+    "main.95efbd6a.js.map": "/deluxe-dance/static/js/main.95efbd6a.js.map",
     "453.435ff830.chunk.js.map": "/deluxe-dance/static/js/453.435ff830.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc1fec0d.css",
-    "static/js/main.dc35ea12.js"
+    "static/css/main.9db10ba9.css",
+    "static/js/main.95efbd6a.js"
   ]
 }
