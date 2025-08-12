@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/deluxe-dance/static/css/main.9db10ba9.css",
+    "main.css": "/deluxe-dance/static/css/main.a41e11b8.css",
     "main.js": "/deluxe-dance/static/js/main.95efbd6a.js",
     "static/js/453.435ff830.chunk.js": "/deluxe-dance/static/js/453.435ff830.chunk.js",
     "static/media/logo.png": "/deluxe-dance/static/media/logo.6ee49b4a36bc500e9c89.png",
+    "static/media/CormorantGaramond-SemiBold.ttf": "/deluxe-dance/static/media/CormorantGaramond-SemiBold.e430c89c4919f5a934c0.ttf",
     "static/media/CormorantGaramond-Regular.ttf": "/deluxe-dance/static/media/CormorantGaramond-Regular.ec49e37220273b5a5f0e.ttf",
     "static/media/west.jpg": "/deluxe-dance/static/media/west.e61c361b4b1d545a25bb.jpg",
     "static/media/westpro.jpg": "/deluxe-dance/static/media/westpro.4ee18c43744308d0c235.jpg",
@@ -17,12 +18,12 @@
     "static/media/pilates.jpg": "/deluxe-dance/static/media/pilates.b9e2f95d08e8370f6d53.jpg",
     "static/media/Cinzel-Regular.ttf": "/deluxe-dance/static/media/Cinzel-Regular.df2966c125b0b82cc089.ttf",
     "index.html": "/deluxe-dance/index.html",
-    "main.9db10ba9.css.map": "/deluxe-dance/static/css/main.9db10ba9.css.map",
+    "main.a41e11b8.css.map": "/deluxe-dance/static/css/main.a41e11b8.css.map",
     "main.95efbd6a.js.map": "/deluxe-dance/static/js/main.95efbd6a.js.map",
     "453.435ff830.chunk.js.map": "/deluxe-dance/static/js/453.435ff830.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9db10ba9.css",
+    "static/css/main.a41e11b8.css",
     "static/js/main.95efbd6a.js"
   ]
 }
