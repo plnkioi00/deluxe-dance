@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deluxe-dance/static/css/main.234c9b17.css",
+    "main.css": "/deluxe-dance/static/css/main.d61a0a19.css",
     "main.js": "/deluxe-dance/static/js/main.95efbd6a.js",
     "static/js/453.435ff830.chunk.js": "/deluxe-dance/static/js/453.435ff830.chunk.js",
     "static/media/logo.png": "/deluxe-dance/static/media/logo.6ee49b4a36bc500e9c89.png",
@@ -18,12 +18,12 @@
     "static/media/pilates.jpg": "/deluxe-dance/static/media/pilates.b9e2f95d08e8370f6d53.jpg",
     "static/media/Cinzel-Regular.ttf": "/deluxe-dance/static/media/Cinzel-Regular.df2966c125b0b82cc089.ttf",
     "index.html": "/deluxe-dance/index.html",
-    "main.234c9b17.css.map": "/deluxe-dance/static/css/main.234c9b17.css.map",
+    "main.d61a0a19.css.map": "/deluxe-dance/static/css/main.d61a0a19.css.map",
     "main.95efbd6a.js.map": "/deluxe-dance/static/js/main.95efbd6a.js.map",
     "453.435ff830.chunk.js.map": "/deluxe-dance/static/js/453.435ff830.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.234c9b17.css",
+    "static/css/main.d61a0a19.css",
     "static/js/main.95efbd6a.js"
   ]
 }
