@@ -1,7 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
 import {
-  Calendar,
   Clock,
   MapPin,
   Phone,
@@ -9,11 +8,18 @@ import {
   Star,
   Menu,
   X,
-  Music
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { translations } from './translations.js';
 import './App.css';
+import logo from './assets/logo.png';
+import * as Icons from 'lucide-react';
+
+const iconMap = {
+  Heart: Icons.Heart, Layers: Icons.Music, Award: Icons.Award, Sparkles: Icons.Sparkles,
+  Shield: Icons.Shield, Users: Icons.Users, Video: Icons.Video, Home: Icons.Home,
+  MapPin: Icons.PersonStandingIcon, Star: Icons.Star
+};
 
 
 const App = () => {
@@ -45,7 +51,7 @@ const App = () => {
       <header className="app-header">
         <div className="header-content">
           <div className="brand">
-            <Music className="brand-icon" />
+            <img src={logo} alt="Deluxe Dance Studio Logo" className="brand-logo" />
             <span className="brand-title">Deluxe Dance Studio</span>
           </div>
           <nav className="nav-desktop">
@@ -100,6 +106,30 @@ const App = () => {
           {t.hero.subtitle}
         </motion.p>
         <button className="hero-button">{t.hero.cta}</button>
+      </section>
+
+
+      {/* ABout */}   
+      <section id="about" className="about-section">
+      <h2 className="section-title">{t.about?.title || ''}</h2>     
+      <div className="about-content">
+      <div className="about-image">
+        <img src={logo} alt="About Deluxe Dance" className="about-img" />
+        <img src={logo} alt="About Deluxe Dance" className="about-img" />
+      </div>
+  
+        <ul className="features-list">
+          {t.about?.features?.map((f, i) => {
+            const Icon = iconMap[f.icon] || Icons.Star;
+            return (
+              <li key={i} className="feature-item">
+                <Icon className="feature-icon" />
+                <span className="feature-text">{f.text}</span>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
       </section>
 
       {/* Classes */}
