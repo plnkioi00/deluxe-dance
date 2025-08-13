@@ -1,4 +1,14 @@
 // src/translations.js
+import pilatesImg from './assets/pilates.jpg';
+import stretchImg from './assets/stretching.jpg';
+import barreImg from './assets/barre.jpg';
+import ladystyleImg from './assets/ladystyle.jpg';
+import tabataImg from './assets/tabata.jpg';
+import westImg from './assets/west.jpg';
+import westproImg from './assets/westpro.jpg';
+import zumbaImg from './assets/zumba.jpg';
+import heelsImg from './assets/heels.jpg';
+import bodyballetImg from './assets/bodyballet.jpg';
 
 export const translations = {
     en: {
@@ -278,7 +288,7 @@ export const translations = {
             • Лёгкость, пластичность, ощущение полёта в теле и душе
 
             Аэростретчинг — это искусство заботы о себе в воздухе. Вы вытягиваетесь, дышите, отпускаете напряжение и выходите с занятия обновлённой, спокойной и лёгкой.`,
-          image: '',
+          image: pilatesImg,
           level: 'Для всех уровней',
           price: '8 занятий €80 / 30 дней, 16 занятий €140 / 70 дней, Одно €15'
         },
@@ -306,7 +316,7 @@ export const translations = {
                       •	Обратная связь от педагога.
 
             Важно: каблуки должны быть устойчивыми и комфортными (чаще всего — танцевальные туфли на среднем каблуке), особенно для новичков.`,
-          image: 'https://placehold.co/400x300/F43F5E/FFFFFF?text=Heels',
+          image: heelsImg,
           level: 'От начального до продвинутого',
           price: 'Одно €15, Индивидуально от €30'
         },
@@ -348,7 +358,7 @@ export const translations = {
               •	Мягкая растяжка
 
             Главное — не техника, а удовольствие от движения! Участницы выходят с занятий с улыбкой, раскрасневшиеся и заряженные позитивом.`,
-          image: 'https://placehold.co/400x300/EC4899/FFFFFF?text=Zumba',
+          image: zumbaImg,
           level: 'Для всех уровней',
           price: '8 занятий €80 / 30 дней, 16 занятий €140 / 70 дней'
         },
@@ -393,7 +403,7 @@ export const translations = {
                 •	Мягкое восстановление дыхания и энергии
 
               Важно: Стретчинг не требует силы или выносливости — главное здесь терпение, дыхание и забота о себе. На занятиях создаётся спокойная, поддерживающая атмосфера.`,
-          image: 'https://placehold.co/400x300/10B981/FFFFFF?text=Stretching',
+          image: stretchImg,
           level: 'Для всех уровней',
           price: '8 занятий €80 / 30 дней'
         },
@@ -440,7 +450,7 @@ export const translations = {
                   •	Осознанное завершение тренировки
 
                 Пилатес — это про качество, а не количество. Здесь важна техника, внимательность и ощущение тела. После занятия чувствуешь себя бодрой, спокойной и собранной.`,
-          image: 'https://placehold.co/400x300/2563EB/FFFFFF?text=Pilates',
+          image: pilatesImg,
           level: 'Для всех уровней',
           price: '8 занятий €80 / 30 дней'
         },
@@ -485,7 +495,8 @@ export const translations = {
               •	Мягкая растяжка активных мышц
             
               Важно: Табата — это не «легко», но очень эффективно. Подходит тем, кто хочет настоящего результата и не боится вспотеть.`,
-          image: 'https://placehold.co/400x300/F59E0B/FFFFFF?text=Tabata',
+          image: tabataImg,
+          focus: 'center 120%',
           level: 'Средний и продвинутый',
           price: 'Одно €15'
         },
@@ -531,7 +542,8 @@ export const translations = {
                 •	Растяжка под красивую музыку в партере.
 
               Фишка класса - разучивание простых танцевальных движений ,которые во взрослом возрасте просто про удовольствие и движение, это мощный инструмент оздоровления мозга, тела и психики. Развивает нейросвязи, улучшает двигательный контроль, предотвращает неуклюжесть и снижает риск падений с возрастом. Замедляет возрастные изменения мозга и даже предотвращает деменцию. Подтверждено научно: у танцующих людей заметно выше когнитивная активность, особенно в возрасте 50+ В итоге: Профилактика, терапия и эстетика в одном.Не просто двигаетесь ,а развиваете мозг, тело и душу одновременно.`,
-          image: 'https://placehold.co/400x300/8B5CF6/FFFFFF?text=Body%26Ballet',
+          image: bodyballetImg,
+          focus: 'center 50%',
           level: 'От начального до продвинутого',
           price: '8 занятий €80'
         },
@@ -603,7 +615,8 @@ export const translations = {
                 •	Упражнения на расслабление и контакт с собой
 
               Lady Style — это про  тело, женственность, женскую силу и сексуальность. Это не просто танец — это путь к себе.`,
-          image: 'https://placehold.co/400x300/EC4899/FFFFFF?text=LadyStyle',
+          image: ladystyleImg,
+          focus: 'center 90%',
           level: 'Для всех уровней',
           price: '8 занятий €80'
         },
@@ -637,7 +650,8 @@ export const translations = {
                 •	Техника на высоком уровне
                 •	Возможность выступать, создавать собственные сольные номера
                 •	Энергия сцены, артистизм и настоящая внутренняя мощь.`,
-          image: 'https://placehold.co/400x300/14B8A6/FFFFFF?text=Barre',
+          image: barreImg,
+          focus: 'center 80%',
           level: 'От начального до среднего',
           price: '8 занятий €80'
         },
@@ -671,7 +685,7 @@ export const translations = {
                 •	Техника на высоком уровне
                 •	Возможность выступать, создавать собственные сольные номера
                 •	Энергия сцены, артистизм и настоящая внутренняя мощь.`,
-          image: 'https://placehold.co/400x300/F472B6/FFFFFF?text=Oriental+Pro',
+          image: westproImg,
           level: 'Продвинутый',
           price: 'Индивидуально от €30'
         },
@@ -710,7 +724,7 @@ export const translations = {
                 •	Подвижность, грация, осанка
                 •	Чувственность и спокойствие
                 •	Уходят зажимы, приходит энергия, нормализуется женский цикл.`,
-          image: 'https://placehold.co/400x300/F472B6/FFFFFF?text=Oriental',
+          image: westImg,
           level: 'От начального до продвинутого',
           price: '8 занятий €80'
         },
